@@ -2,8 +2,19 @@
 
 The Aptos move contract code is intended to be used for the purpose of selling War coin through a smart contract.
 
-# Project informations
+## Cloning the repository
+```git clone https://github.com/werewolfandwitch/aptos-move-warcoin-launchpad.git```
 
+## Initialize
+Initialize with ```aptos init``` in the ```aptos-move-warcoin-launchpad``` folder you just cloned
+
+## Compile
+```aptos move compile --named-addresses launchpad_war_coin=default```
+
+## Publish
+```aptos move publish --named-addresses launchpad_war_coin=default```
+
+# Project informations
 ## Homepage
 - Werewolf and witch NFT WAR Game- [Website](https://werewolfandwitch.xyz)
 
